@@ -22,7 +22,13 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
-        body: TweetTitle(),
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              for (int i = 0; i < 10; i++) TweetTitle(),
+            ],
+          ),
+        ),
       ),
     );
   }
