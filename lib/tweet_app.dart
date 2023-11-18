@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'TweetTitle.dart';
+import 'widget/tweet_title.dart';
 
 class TweetApp extends StatelessWidget {
   const TweetApp({super.key});

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'TweetApp.dart';
+// import 'tweet_app.dart';
+import 'initial.dart';
 
 void main() {
   runApp(
-    TweetApp(),
+    // TweetApp(),
+    InitialApp(),
   );
 }
